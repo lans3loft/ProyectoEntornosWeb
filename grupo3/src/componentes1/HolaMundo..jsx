@@ -1,6 +1,13 @@
+import { Fragment } from "react"
 
-function HolaMundo() {
+function pepe() {
+   
+    return (
 
-    return <h1> Pepito</h1>
+        <>
+        <h1>Seguimos aqui</h1>
+        </>
+    )
+
 }
-export default HolaMundo;
+export default pepe;

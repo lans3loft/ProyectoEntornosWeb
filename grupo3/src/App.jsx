@@ -7,8 +7,7 @@ function App() {
 return (
     <>
   <HolaMundo />
-  <HolaMundo />
-  <HolaMundo />
+
     </>
   );
 }
