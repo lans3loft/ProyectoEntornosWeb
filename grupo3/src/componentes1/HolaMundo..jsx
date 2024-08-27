@@ -18,13 +18,13 @@ function App() {
     e.preventDefault();
     const { firstName, secondName, email, phone } = formData;
 
-    // Validar que todos los campos están llenos
+    
     if (!firstName || !secondName || !email || !phone) {
       alert('Por favor, complete todos los campos.');
       return;
     }
 
-    // Validar que el número celular tenga exactamente 9 dígitos
+     
     if (!/^\d{9}$/.test(phone)) {
       alert('El número celular debe tener exactamente 9 dígitos.');
       return;
@@ -34,12 +34,20 @@ function App() {
   };
 
   return (
+    
+    
+    
+  
+    
+    
+    
+    
     <div className="form-container">
-      <h2>Formulario de Contacto</h2>
+      
       <form onSubmit={handleSubmit}>
         <div className="form-row">
           <div className="form-group">
-            <label htmlFor="firstName">Primer Nombre</label>
+            <label htmlFor="firstName">first Name</label>
             <input
               type="text"
               id="firstName"
@@ -50,7 +58,7 @@ function App() {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="secondName">Segundo Nombre</label>
+            <label htmlFor="secondName">last Name</label>
             <input
               type="text"
               id="secondName"
@@ -62,7 +70,7 @@ function App() {
           </div>
         </div>
         <div className="form-group">
-          <label htmlFor="email">Correo Electrónico</label>
+          <label htmlFor="email">Email Address</label>
           <input
             type="email"
             id="email"
@@ -73,7 +81,7 @@ function App() {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="phone">Número Celular</label>
+          <label htmlFor="phone">Phone Number</label>
           <input
             type="tel"
             id="phone"
@@ -85,7 +93,7 @@ function App() {
           />
         </div>
         <div className="form-group">
-          <button type="submit">Enviar</button>
+          <button type="submit">Submit</button>
         </div>
       </form>
     </div>
