@@ -6,7 +6,8 @@
     position: fixed;
     bottom: 0;
     width: 70%;
-  }
+    margin-right:30px;
+}
   
   .footer-content {
     display: flex;
