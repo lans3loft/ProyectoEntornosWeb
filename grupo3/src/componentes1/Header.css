@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    height:50px;
     padding: 10px 20px;
     background-color: #f9f3e7;
     border-bottom: 2px solid #d7bca8;
@@ -9,7 +9,7 @@
   
   .logo-container {
     display: flex;
-    align-items: center;
+    
   }
   
   .logo {
@@ -25,7 +25,7 @@
   
   .social-icons {
     display: flex;
-    align-items: center;
+    
   }
   
   .icon {
