@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 function App() {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -37,11 +36,17 @@ function App() {
     
     
     
-  
     
-    
-    
-    
+   
+
+
+
+ 
+
+
+
+
+
     <div className="form-container">
       
       <form onSubmit={handleSubmit}>
@@ -97,6 +102,8 @@ function App() {
         </div>
       </form>
     </div>
+    
+ 
   );
 }
 
