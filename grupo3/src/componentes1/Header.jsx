@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css'; 
+import './Header.css'
 
 function Header() {
   return (
@@ -10,7 +10,7 @@ function Header() {
       </div>
       <div className="social-icons">
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-          <img src="facebook-icon.png" alt="Facebook" className="icon" /> {/* Cambia la ruta según tu archivo de icono */}
+          <img src="facebook-icon.png alt="alt =" Faceboock " className="icon" /> {/* Cambia la ruta según tu archivo de icono */}
         </a>
         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
           <img src="instagram-icon.png" alt="Instagram" className="icon" />

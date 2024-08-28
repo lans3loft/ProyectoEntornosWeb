@@ -1,0 +1,24 @@
+.footer {
+    background-color: #d97708;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-brand {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer-date, .footer-time {
+    font-size: 14px;
+  }
